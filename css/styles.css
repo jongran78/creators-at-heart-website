@@ -1,0 +1,183 @@
+body {
+    background-color: #FEFBFD;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+.wrapper {
+  width:100%;
+  
+  margin: 0px;
+}
+header {
+    display: none;
+}
+
+#title {
+    width: 60%;
+    height: 800px;
+    margin: 0px 10px 0px 0px;  text-align: left;
+    background-color: #FEFBFD;
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-overflow: initial;
+ 
+}
+
+#title h1 {
+    font-family: 'Petit Formal Script', cursive;
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 10px;
+    
+}
+#title h1 span {
+    color: crimson;
+}
+
+#images {
+   
+    width: 39%;
+    height: 800px;
+    text-align: center;
+    background-color: #FEFBFD;
+    display: block;
+    float: right;
+    
+}
+
+.slideshow {
+    width: 100%;
+    height: 799px;
+    text-align: center;
+    background-color: #FEFBFD;
+    display: inline-block;
+    overflow: auto;
+
+
+}
+
+#about {
+    width: 100%;
+    height: 800px;
+    background-color: #FEFBFD;
+    display: block;
+    float: left; 
+}
+
+#about h1 {
+    font-family: 'Petit Formal Script', cursive;
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+   
+    
+}
+
+#about p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    width: 50%;
+    margin: 20px;
+    clear: both;
+}
+
+#about p span {
+    text-transform: uppercase;
+    color: #1F0E2A;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.carol-img {
+    overflow: hidden;
+    max-width: 30%;
+    height: 165px;
+    display: inline-block;  
+    margin: 40px;
+    margin: 40px 20px 0px 60px;
+}
+
+.carol-img img {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+.charlie-img {
+    overflow: hidden;
+    max-width: 30%;
+    height: 165px;
+    display: inline-block;
+    
+    
+}
+
+.charlie-img img {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+#work {
+    width: 100%;
+    height: 800px;
+    background-color: #F6F2E4;
+    display: block;
+    margin: auto;
+    margin-top: 600px;
+    float: none;
+    clear: both;
+   
+}
+
+#work h1 {
+    font-family: 'Petit Formal Script', cursive;
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.column-left {
+    margin-left: 20px;
+    width: 50%;
+    height: 800px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    float: none;
+    
+}
+
+.column-right {
+    margin-left: 20px;
+    width: 45%;
+    height: 800px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+}
+#commission {
+    width: 100%;
+    height: 800px;
+    background-color: #F6F2E4;
+    display: block;
+    margin-top: 160px;
+
+}
+
+#commission h1 {
+    font-family: 'Petit Formal Script', cursive;
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
